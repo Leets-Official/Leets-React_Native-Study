@@ -2,7 +2,8 @@
 
 <br/>
 
-![Alt text](image.png)
+<img width="626" alt="image" src="https://github.com/user-attachments/assets/f6dc52d9-eb93-46fb-8168-ab81ccec2840">
+
 
 > Leets 4기 React Native 스터디, Udemy의 React Native - 완벽 가이드 [2024] 강의를 수강하며 스터디를 진행합니다.
 > _제목을 클릭하면 해당 강의로 이동합니다._
