@@ -1,0 +1,32 @@
+name: "정리"
+description: "해당 주차 섹션과 관련된 정리본을 작성합니다."
+labels: [recap]
+title: "[recap] [내가 공부한 주제]"
+body:
+  - type: textarea
+    attributes:
+      label: "무엇을 알게 되었나요?"
+      description: "상세 섹션과 함께 작성해주세요."
+      value: |
+        - S1.1 강의에 오신 것을 환영합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "어려운 내용이 있었다면 무엇이고, 이를 어떻게 해결하였나요?"
+      description: "본인의 해결 방식을 작성해주세요."
+      value: |
+        - 컴포넌트가 뭔가요?
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: "어떤 자료를 참고하였나요?"
+      description: "관련 레퍼런스를 참조해주세요."
+      value: |
+        - Chat GPT / 공식문서
+    validations:
+      required: false

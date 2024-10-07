@@ -1,0 +1,22 @@
+name: "질문"
+description: "해당 주차 섹션을 공부하며 궁금했던 점을 질문합니다."
+labels: [question]
+title: "[question] [질문하고 싶은 주제]"
+body:
+  - type: textarea
+    attributes:
+      label: "어려웠던 점은 무엇인가요?"
+      description: "상세 섹션과 함께 작성해주세요."
+      value: |
+        - S2.21의 플렉스 박스가 어려웠습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "해당 문제에 대한 본인의 생각을 작성해주세요."
+      description: "단 한줄이라도 괜찮습니다!"
+      value: |
+        - 플렉스 박스는
+    validations:
+      required: true
