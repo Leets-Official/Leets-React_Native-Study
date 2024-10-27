@@ -1,4 +1,4 @@
-name: "질문"
+name: "Question"
 description: "해당 주차 섹션을 공부하며 궁금했던 점을 질문합니다."
 labels: [question]
 title: "[question] [질문하고 싶은 주제]"
